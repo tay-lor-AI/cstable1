@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:#ffffff;
+    background: url(https://i.pinimg.com/736x/81/37/13/8137135f595730110ecca0eeb757cd6e.jpg);
 }
 
 .links {
@@ -37,8 +37,8 @@ border-radius: 12px;
 
         .social-list a {
   text-decoration: none;
-  color: #cc0000;
-  font-family:'Trebuchet MS';
+  color: rgb(70, 129, 219);
+  font-family:Verdana;
 }
 
 .copyright {
