@@ -6,12 +6,6 @@ th,
             margin: 10px;
         }
 
-        body {
-            background-color: #DDDAD0;
-            color: #5e5e5b;
-            font-family: 'Courier New', Courier, monospace;
-        }
-
         .table {
             margin-left: auto;
             margin-right: auto;
@@ -20,7 +14,8 @@ th,
         }
 
         th {
-            background-color: #9c9c94;
+            background-color: #56419d;
+            color:#9fcff6;
         }
 
         img {
@@ -35,31 +30,43 @@ th,
             margin-right: auto;
         }
 
-        .links {
-            background-color: #afafaf;
-            overflow: hidden;
-            float: none;
-            border-radius: 12px;
-        }
+body{
+    background-color: #fdc8da;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color:#0e3c61;
+}
+.links {
+background-color: #56419d;
+overflow: hidden;
+float: none;
+border-radius: 12px;
+font-size: 12px;
+}
 
-        .links a {
-            float: left;
-            color: #000000;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
+.links a {
+    float: left;
+    color: #9fcff6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-        .links a:hover {
-            background-color: #acacac;
-            color: black;
-        }
+.links a:hover {
+    background-color: #d5e7f7;
+    color: black;
+}
 
-        .links a.active {
-            background-color: #51645d;
-            color: white;
-        }
+.links a.active {
+    background-color: #9fcff6;
+    color: #56419d;
+}
+
+.links a.active:hover {
+    background-color: #d5e7f7;
+    color: #56419d;
+}
 
         .social-list a {
   text-decoration: none;
