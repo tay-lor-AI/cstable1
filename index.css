@@ -30,13 +30,16 @@ border-radius: 12px;
     color: #ffffff;
     text-align: center;
     padding: 14px 16px;
+    gap: 20px;
     text-decoration: none;
     font-size: 17px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .links a:hover {
     background-color: #CED5DA;
     color: #9c98a9;
+    transform: scale(1.2);
 }
 
 .links a.active {
@@ -47,6 +50,7 @@ border-radius: 12px;
 .links a.active:hover {
     background-color:  #CED5DA;
     color: #9c98a9;
+    
 }
 
 .links a:visited {
