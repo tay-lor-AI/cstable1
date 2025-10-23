@@ -32,6 +32,10 @@ border-radius: 12px;
     color: #9c98a9;
 }
 
+.links a:visited {
+    color: #85AEBF;
+}
+
         .social-list a {
   text-decoration: none;
   color: rgb(70, 129, 219);
